@@ -12,10 +12,10 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 @IncludeEngines("cucumber")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/example.feature")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/calculator.feature")
-//@SelectClasspathResource("com/bptn/CucumberAutomation/strongPassword.feature")
+@SelectClasspathResource("com/bptn/CucumberAutomation/strongPassword.feature")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/signUp.feature")
 //@SelectClasspathResource("com/bptn/CucumberAutomation/login.feature")
-@SelectClasspathResource("com/bptn/CucumberAutomation/shoppingCart.feature")
+//@SelectClasspathResource("com/bptn/CucumberAutomation/shoppingCart.feature")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.bptn.CucumberAutomation")
 //@IncludeTags("ValidUserInformation")
 public class RunCucumberTest {
